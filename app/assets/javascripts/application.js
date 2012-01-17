@@ -7,3 +7,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+// codice scritto da Flavio:
+// eseguo il 'plugin' orbit (le immagini che scorrono orizzontali su home)
+
+	$(window).load(function() {
+		$('#featured').orbit({
+			"animation" : "horizontal-push"
+		});    	
+	});

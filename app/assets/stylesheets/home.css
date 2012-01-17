@@ -1,15 +1,113 @@
-.stripe
+/*BREADCRUMBS start*/
+/*+clearfix {*/
+.indexmenu:after
 {
-	background: #1D8234;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
 }
-.stripe_container
+.indexmenu
 {
-	width: 960px;
-	background: #1D3482;
-	/*+placement:margin-auto 0px 0px;*/
-	margin-left: auto;
-	margin-right: auto;
+	display: inline-block;
+}
+.indexmenu
+{
+/*\*/
+	display: block;
+/**/
+	-height: 1px;
+}
+/*+}*/
+UL.navigation
+{
+	list-style-type: none;
+/*important for the navigation bar
+background: red;
+for debug
+border-bottom: 2px solid yellow;
+for debug*/
+	position: relative;
+}
+UL.navigation LI
+{
+	padding-left: 24px;
+	background: url("/assets/goTo.png") no-repeat left;
+	/*+placement:float-left 0px 0px;*/
+	float: left;
 	position: relative;
 	left: 0px;
 	top: 0px;
 }
+UL.navigation LI:first-child
+{
+/*height: 25px;*/
+	padding-left: 0px;
+/*padding-right: 2px;*/
+	background: none;
+}
+UL.navigation LI:first-child A
+{
+	background-position: 2px;
+	text-indent: 25px;
+/*sposta il testo e permette di vedere l'icona
+height: 27px;
+padding-left: 26px;*/
+}
+/*BREADCRUMBS end
+MENU start*/
+/*[clearfix]*/.indexmenu
+{
+	/*[disabled]float:left;*/
+	/*[disabled]width:100%;*/
+	/*[disabled]height:120px;*/
+	/*[disabled]+placement:float-left 0px 0px;*/
+}
+.indexmenu UL
+{
+	/*[disabled]margin:0;*/
+	/*[disabled]padding:15px 0px 0px 5px;*/
+	/*[disabled]list-style:none;*/
+	/*[disabled]line-height:normal;*/
+}
+.indexmenu LI
+{
+	/*[disabled]display:block;*/
+	/*[disabled]float:left;*/
+}
+.indexmenu A
+{
+	/*[disabled]display:block;*/
+	/*[disabled]float:left;*/
+	/*[disabled]height:32px;*/
+	/*[disabled]padding:10px 20px 0px;*/
+	/*[disabled]letter-spacing:-1px;*/
+	/*[disabled]text-decoration:none;*/
+	/*[disabled]text-align:center;*/
+	/*[disabled]text-transform:lowercase;*/
+	/*[disabled]font-family:Arial, Helvetica, sans-serif;*/
+	/*[disabled]font-size:18px;*/
+	/*[disabled]font-weight:normal;*/
+	/*[disabled]color:#FFFFFF;*/
+}
+.indexmenu A:hover
+{
+	/*[disabled]text-decoration:none;*/
+}
+.indexmenu A.pippo
+{
+	/*[disabled]+image-replace:url(htscs.png);*/
+	/*[disabled]color:#008000;*/
+	/*[disabled]width:100px;*/
+	/*[disabled]height:50px;*/
+}
+.indexmenu .current_page_item
+{
+	/*[disabled]color:#FF0000;*/
+}
+.indexmenu .first
+{
+}
+/*MENU end*/

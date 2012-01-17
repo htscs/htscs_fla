@@ -1,0 +1,38 @@
+/*+clearfix {*/
+.stripe_container:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.stripe_container
+{
+	display: inline-block;
+}
+.stripe_container
+{
+/*\*/
+	display: block;
+/**/
+	-height: 1px;
+}
+/*+}*/
+.stripe
+{
+	background: #61CE7A;
+	/*[disabled]overflow:hidden;*/
+	/*[disabled]position:static;*/
+}
+/*[clearfix]*/.stripe_container
+{
+	width: 960px;
+	background: #5D6DA2;
+	/*[disabled]+placement:margin-auto 0px 0px;*/
+}
+.help
+{
+	/*[disabled]+placement:float-left 0px 0px;*/
+}
