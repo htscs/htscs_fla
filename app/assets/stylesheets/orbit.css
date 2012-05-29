@@ -8,7 +8,7 @@ Tolto da view/layout
 ==================================================*/
 #slidercontainer
 {
-	background: #ECE958;
+	background: #FFFFFF;
 	/*+placement:margin-auto 0px 0px;*/
 	margin-left: auto;
 	margin-right: auto;
@@ -183,21 +183,21 @@ DIV.slider-nav SPAN.right
 {
 	right: 0;
 	background-image: url(/assets/orbit/right-arrow.png);
-	/*+placement:float-right 0px 0px;*/
+	/*+placement:float-right 0px 220px;*/
 	float: right;
 	position: relative;
 	left: 0px;
-	top: 0px;
+	top: 220px;
 }
 DIV.slider-nav SPAN.left
 {
 	left: 0;
 	background-image: url(/assets/orbit/left-arrow.png);
-	/*+placement:float-left 0px 0px;*/
+	/*+placement:float-left 0px 220px;*/
 	float: left;
 	position: relative;
 	left: 0px;
-	top: 0px;
+	top: 220px;
 }
 /*BULLET NAV
 ==================================================*/
@@ -205,14 +205,11 @@ DIV.slider-nav SPAN.left
 {
 	z-index: 1000;
 	list-style: none;
-	bottom: -40px;
-	left: 50%;
-	margin-left: -50px;
 	padding: 0;
-	/*+placement:displace -20px 446px;*/
-	position: absolute;
-	margin-left: -20px;
-	margin-top: 446px;
+	/*+placement:shift 380px 456px;*/
+	position: relative;
+	left: 380px;
+	top: 456px;
 }
 .orbit-bullets LI
 {

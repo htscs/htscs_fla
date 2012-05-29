@@ -1,53 +1,32 @@
-<div class="stripe">
+<div class="stripe_slider">
 	<div class="stripe_container">
       <ul class='navigation'>
         <li>
-		    <% image = image_tag( "home.png", :id => 1,
+		    <%# image = image_tag( "home.png", :id => 1,
 									:alt => "home", :title => "home", :class => "") %>
 			<% url_path = "http://www.visara.com/" %>													
-	     	<%= link_to image, url_path, :target => "_blank"  %>	
+	     	<%#= link_to image, url_path, :target => "_blank"  %>	
+		    <%= link_to 'home', url_path, :target => "_blank"  %>
         </li>
-        <li>
-			<% url_path = "http://www.visara.com/" %>													
-	     	<%= link_to "person", url_path, :target => "_blank"  %>	
-        </li>
-        <li>
-			<% url_path = "http://www.visara.com/" %>													
-	     	<%= link_to "person", url_path, :target => "_blank"  %>	
-        </li>
-        <li>
-			<% url_path = "http://www.visara.com/" %>													
-	     	<%= link_to "person", url_path, :target => "_blank"  %>	
-        </li>
+ 	       <li>
+				<% url_path = "http://www.visara.com/" %>													
+		     	<%= link_to "person", url_path, :target => "_blank"  %>	
+	        </li>
+	        <li>
+				<% url_path = "http://www.visara.com/" %>													
+		     	<%= link_to "person", url_path, :target => "_blank"  %>	
+	        </li>
+	        <li>
+				<% url_path = "http://www.visara.com/" %>													
+		     	<%= link_to "person", url_path, :target => "_blank"  %>	
+	        </li>
       </ul>
-
 	</div>
 </div>
 
 <div class="stripe">
 	<div class="stripe_container">
-		<ul class="help">
-			<li>uno</li>
-			<li>due</li>
-			<li>tre</li>
-			<li>uno</li>
-			<li>due</li>
-			<li>tre</li>
-			<li>uno</li>
-			<li>due</li>
-			<li>tre</li>
-			<li>uno</li>
-			<li>due</li>
-			<li>tre</li>
-		</ul>
-	</div>
-</div>
-
-
-
-<div class="stripe">
-	<div class="stripe_container">
-		<div class="indexmenunavevocapito">
+		<div class="indexmenua">
 			
 			<script type="text/javascript">/*<![CDATA[*/(function(){d=document;e=d.documentElement;c="images-on";i=new Image();t=i.style;s=d.enableStateScope=function(s,o){if(o)e.className+=" "+s;else e.className=e.className.replace(new RegExp("\b"+s+"\b"),"");};if(t.MozBinding!=null){t.backgroundImage="url("+d.location.protocol+"//0)";b=window.getComputedStyle(i,'').backgroundImage;if(b!="none"&&b!="url(invalid-url:)"||d.URL.substr(0,2)=="fi")s(c,true);}else{t.cssText="-webkit-opacity:0";if(t.webkitOpacity==0){i.onload=function(){s(c,i.width>0);};i.src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";}else{i.onerror=function(){s(c,true);};i.src="about:blank";}}})();//]]></script>
 			
@@ -72,7 +51,7 @@
 	</div>
 </div>
 
-<div class="stripe">
+<div class="stripe_slider">
 	<div class="stripe_container">
 	  <!--inizio slides-->
 	  <div id="slidercontainer" >

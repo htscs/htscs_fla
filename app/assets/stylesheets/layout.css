@@ -1,4 +1,19 @@
-/*+clearfix {*/
+.stripe_container
+{
+	display: inline-block;
+	display: block;
+	/*-height: 1px;*/
+	width: 960px;
+	/*background: #222222;*/
+	/*+placement:margin-auto 0px 0px;*/
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0px;
+	top: 0px;
+
+}
+
 .stripe_container:after
 {
 	content: ".";
@@ -8,31 +23,14 @@
 	visibility: hidden;
 	font-size: 0;
 }
-.stripe_container
-{
-	display: inline-block;
-}
-.stripe_container
-{
-/*\*/
-	display: block;
-/**/
-	-height: 1px;
-}
-/*+}*/
+
+
 .stripe
 {
-	background: #61CE7A;
-	/*[disabled]overflow:hidden;*/
-	/*[disabled]position:static;*/
+	background: #222222;
 }
-/*[clearfix]*/.stripe_container
+
+.stripe_slider
 {
-	width: 960px;
-	background: #5D6DA2;
-	/*[disabled]+placement:margin-auto 0px 0px;*/
-}
-.help
-{
-	/*[disabled]+placement:float-left 0px 0px;*/
+	background: #FFFFFF;
 }
