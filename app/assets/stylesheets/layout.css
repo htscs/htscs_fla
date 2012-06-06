@@ -30,6 +30,80 @@
 	font-size: 0;
 }
 
+/*960 diviso 12 (1/12,2/12,3/12,4/12,5/12,6/12,7/12,8/12,9/12,10/12,11/12,12/12)*/
+
+.block_1_12
+{
+	width: 80px;
+	float: left;
+}
+
+.block_2_12
+{
+	width: 160px;
+	float: left;
+}
+
+.block_3_12
+{
+	width: 240px;
+	float: left;
+}
+
+.block_4_12
+{
+	width: 320px;
+	float: left;
+}
+
+.block_5_12
+{
+	width: 400px;
+	float: left;
+}
+
+.block_6_12
+{
+	width: 480px;
+	float: left;
+}
+
+.block_7_12
+{
+	width: 560px;
+	float: left;
+}
+
+.block_8_12
+{
+	width: 640px;
+	float: left;
+}
+
+.block_9_12
+{
+	width: 720px;
+	float: left;
+}
+
+.block_10_12
+{
+	width: 800px;
+	float: left;
+}
+
+.block_11_12
+{
+	width: 880px;
+	float: left;
+}
+
+.block_12_12
+{
+	width: 960px;
+	float: left;
+}
+
 /*960 diviso 4 (1/4,2/4,3/4)*/
 .block_1_4
 {
@@ -60,4 +134,12 @@
 {
 	width: 640px;
 	float: left;
+}
+
+/* FONTS */
+p, ul, ol {
+	margin-top: 0;
+	padding-top: 3px;
+	line-height: 240%;
+	text-align: justify;
 }
