@@ -77,23 +77,18 @@ UL.navigation LI:first-child A
 }
 .indexmenua A.pippo
 {
-	/*+image-replace:url(htscs.png);*/
 	display: block;
-	color: #008000;
+	/*	background-color: red;
+		color: #008000;*/
 	width: 110px;
 	height: 50px;
 	background-position: 37px 19px;
+	background-image: url(htscs.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
 }
-@media screen
-{
-	.images-on .indexmenua A.pippo
-	{
-		background-image: url(htscs.png);
-		background-repeat: no-repeat !important;
-		text-indent: -1000000px !important;
-		overflow: hidden;
-	}
-}
+
 .indexmenu .current_page_item
 {
 	color: #FF0000;
