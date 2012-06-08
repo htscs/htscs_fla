@@ -37,25 +37,27 @@ UL.navigation LI:first-child A
 
 
 /* MENU start */
-.indexmenua
+.indexmenu
 {
-	float: left;
-	width: 100%;
 	height: 120px;
+	width: 960px;
 }
-.indexmenua UL
+.indexmenu UL
 {
+/*	background: red;
+	border-bottom: 2px solid yellow;
+*/	height: 30px;
 	margin: 0;
 	padding: 15px 0px 0px 5px;
 	list-style: none;
 	line-height: normal;
 }
-.indexmenua LI
+.indexmenu LI
 {
 	display: block;
 	float: left;
 }
-.indexmenua A
+.indexmenu A
 {
 	display: block;
 	float: left;
@@ -70,13 +72,15 @@ UL.navigation LI:first-child A
 	font-weight: normal;
 	color: #FFFFFF;
 }
-.indexmenua A:hover
+.indexmenu A:hover
 {
 	text-decoration: none;
 	color: #FF0000;
 }
-.indexmenua A.pippo
+.indexmenu A.home
 {
+	float: left;
+	
 	display: block;
 	/*	background-color: red;
 		color: #008000;*/
@@ -89,6 +93,10 @@ UL.navigation LI:first-child A
 	overflow: hidden;	
 }
 
+.indexmenu A.home:hover
+{
+	background-image: url(close.png);
+}
 .indexmenu .current_page_item
 {
 	color: #FF0000;

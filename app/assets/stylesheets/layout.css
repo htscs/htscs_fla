@@ -1,11 +1,16 @@
-.stripe_slider
+.stripe_white
 {
 	background: #FFFFFF;
 }
 
-.stripe
+.stripe_black
 {
 	background: #222222;
+}
+
+.stripe_gray
+{
+	background: gray;
 }
 
 .stripe_container
