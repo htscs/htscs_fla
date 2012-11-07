@@ -10,7 +10,7 @@
 
 .stripe_gray
 {
-	background: gray;
+	background: #EDEDED;
 }
 
 .stripe_container
@@ -162,6 +162,7 @@ A
 A:hover
 {
 	text-decoration: none;
+	text-decoration: underline;
 }
 A.internal_link
 {

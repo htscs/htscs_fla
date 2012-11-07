@@ -1,6 +1,8 @@
 /* BREADCRUMBS start */
 UL.navigation
 {
+	position: relative;
+	left: -40px;
 	list-style-type: none;
 	height: 30px;
 	width: 960px;
@@ -39,7 +41,7 @@ UL.navigation LI:first-child A
 /* MENU start */
 .indexmenu
 {
-	height: 120px;
+	height: 60px;
 	width: 960px;
 }
 .indexmenu UL
@@ -62,7 +64,7 @@ UL.navigation LI:first-child A
 	display: block;
 	float: left;
 	height: 32px;
-	padding: 22px 20px 0px;
+	padding: 52px 20px 0px;
 	letter-spacing: -1px;
 	text-decoration: none;
 	text-align: center;
@@ -77,26 +79,100 @@ UL.navigation LI:first-child A
 	text-decoration: none;
 	color: #FF0000;
 }
+
 .indexmenu A.home
 {
 	float: left;
-	
+	padding: 22px 20px 0px;
 	display: block;
-	/*	background-color: red;
-		color: #008000;*/
-	width: 110px;
-	height: 50px;
-	background-position: 37px 19px;
-	background-image: url(htscs.png);
+	width: 140px;
+	height: 60px;
+	background-position: -10px 0px;	
+/*	background-position: -40px -10px;*/	
+	background-image: url(Logoweb.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+.indexmenu A.home:hover
+{
+	background-image: url(Logoweb_hover.png);
+}
+
+.indexmenu A.partners
+{
+	float: left;
+	padding: 22px 20px 0px;
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-image: url(partners.png);
 	background-repeat: no-repeat !important;
 	text-indent: -1000000px !important;
 	overflow: hidden;	
 }
 
-.indexmenu A.home:hover
+.indexmenu A.partners:hover
 {
-	background-image: url(close.png);
+	background-image: url(partners_hover.png);
 }
+
+
+.indexmenu A.prodotti
+{
+	float: left;
+	padding: 22px 20px 0px;
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-image: url(prodotti.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+
+.indexmenu A.prodotti:hover
+{
+	background-image: url(prodotti_hover.png);
+}
+
+
+.indexmenu A.azienda
+{
+	float: left;
+	padding: 22px 20px 0px;
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-image: url(azienda.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+
+.indexmenu A.azienda:hover
+{
+	background-image: url(azienda_hover.png);
+}
+
+.indexmenu A.contatti
+{
+	float: left;
+	padding: 22px 20px 0px;
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-image: url(contatti.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+
+.indexmenu A.contatti:hover
+{
+	background-image: url(contatti_hover.png);
+}
+
 .indexmenu .current_page_item
 {
 	color: #FF0000;
@@ -105,3 +181,65 @@ UL.navigation LI:first-child A
 {
 }
 /*MENU end*/
+
+/* ICONS */
+A.ico_facebook
+{
+	float: left;
+	
+	display: block;
+	width: 40px;
+	height: 60px;
+	background-position: 0px 0px;
+/*	background-color:yellow;
+*/	background-image: url(social_networks/facebook.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+
+A.ico_facebook:hover
+{
+	background-image: url(social_networks/rss.png);
+}
+
+A.ico_twitter
+{
+	float: left;
+	
+	display: block;
+	width: 40px;
+	height: 60px;
+	background-position: 0px 0px;
+/*	background-color:yellow;
+*/	background-image: url(social_networks/twitter.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+
+A.ico_twitter:hover
+{
+	background-image: url(social_networks/rss.png);
+}
+
+A.ico_rss
+{
+	float: left;
+	
+	display: block;
+	width: 40px;
+	height: 60px;
+	background-position: 0px 0px;
+/*	background-color:yellow;
+*/	background-image: url(social_networks/rss.png);
+	background-repeat: no-repeat !important;
+	text-indent: -1000000px !important;
+	overflow: hidden;	
+}
+
+A.ico_rss:hover
+{
+	background-image: url(social_networks/rss.png);
+}
+
